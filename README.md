@@ -1,0 +1,1 @@
+I made a short video named "edumonics.mp4" in base directory, which shows all the functionality of the app

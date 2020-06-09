@@ -1,0 +1,268 @@
+.header-2 {
+    position: relative;;
+}
+.header-2 .navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-2 .navbar span {
+    font-size: 2.2rem;
+    color: darkolivegreen;
+    margin: 35px;
+    letter-spacing: 1px;
+}
+
+.header-2 .navbar .other {
+    padding: 15px;
+    color: gray;
+    font-size: 1.8rem;
+    margin: 20px;
+    border: 1.5px solid gray;
+    border-radius: 30px;
+}
+
+.page2-layout{
+    position: relative;
+    display: flex;
+    height: 100%;
+}
+
+.left-panel-1 {
+    position: relative;
+    background-color: #594947;
+    width: 40%;
+    height: 135vh;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+}
+
+.left-panel-1 a {
+    color: white;
+    font-size: 2.6rem;
+    /* margin: 30px; */
+    padding: 25px;
+}
+
+.left-panel-1 a:hover {
+    background-color: rgb(118, 191, 216);
+}
+
+.right-panel-1 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 7;
+}
+
+.right-panel-1 .top {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #A68F9E;
+    height: 500px;
+    min-width: 0;
+    max-width: 100%;
+    
+}
+
+.right-panel-1 .top .widget {
+    position: relative;
+    max-width: 80%;
+    margin: 50px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.right-panel-1 .top .widget span{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* font-size: 1.3vw; */
+    font-size: medium;
+    font-weight: 1000;
+    color: gray;
+    display: inline-block;
+}
+
+.right-panel-1 .top .widget img{
+    position: absolute;
+    height: 100%;
+    max-width: 25%;
+    min-width: 0;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right-panel-1 .bottom .bottom-top-box{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50%;
+    flex-wrap: nowrap;
+}
+
+.right-panel-1 .bottom .card {
+    position: relative;
+    flex-grow: 8;
+    margin: 50px;
+    padding: 60px;
+    min-width: 100px;
+    max-width: 400px;
+    
+    border: 1px solid gray;
+    box-shadow: 2px 2px gray;
+    border-radius: 20px;
+}
+
+.right-panel-1 .bottom-bottom{
+    display: flex;
+    flex-grow: 8;
+}
+
+.right-panel-1 .bottom .abnormal-card{
+    min-width: 100px;
+    max-width: 100%;
+}
+
+.right-panel-1 .bottom .card .title {
+    border-bottom: 1px solid gray;
+}
+
+.right-panel-1 .bottom .card span {
+    position: absolute;
+    color: gray;
+    left: 10%;
+    top: 5%;
+    font-size: 2.0rem;
+    font-weight: 600;
+}
+.right-panel-1 .bottom .card .abnormal-title {
+    
+    left: 5%;
+    top: 5%;
+   
+}
+
+.some-text{
+    position: relative;
+    background-color: #A68F9E;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.some-text span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.5rem;
+    color: white;
+}
+
+.my-account-nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.my-account-nav .submenu{
+    position: absolute;
+    top: 60%;
+    z-index: 57;
+    padding: 15px;
+    color: gray;
+    font-size: 1.8rem;
+    background-color: white;
+    margin: 20px;
+    border: 1.5px solid gray;
+    border-radius: 30px;
+}
+
+.select-class-menu{
+    
+    z-index: 57;
+    
+    transform: translateX(-240px);
+}
+
+.select-class-menu ul {
+    position: absolute;
+    display: none;
+    padding: 15px;
+    margin: 20px;
+    width: 70px;
+    background-color: white;
+    border: 1.5px solid gray;
+    border-radius: 30px;
+}
+
+.select-class:focus .select-class-menu ul{
+    display: block;
+}
+
+.select-class-menu ul a{
+    padding: 15px;
+    color: gray;
+    font-size: 1.8rem;
+    margin: 20px;
+    
+}
+
+.left-panel-1 .submenu{
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: -5%;
+    left: 96%;
+    z-index: 57;
+    width: 70px;
+    padding: 15px;
+    color: gray;
+    font-size: 1.8rem;
+    background-color: white;
+    margin: 20px;
+    border: 1.5px solid gray;
+    border-radius: 30px;
+}
+.horizontal-submenu{
+    display: flex;
+     text-align: center;
+    cursor: pointer;
+    
+    z-index: 57;
+    width: 70px;
+    padding: 15px;
+    color: gray;
+    font-size: 1.8rem;
+    background-color: white;
+    margin: 20px;
+    border: 1.5px solid gray;
+    border-radius: 30px;
+    
+}
+.newList{
+    position: absolute;
+    left:30%;
+}
+
+.page2-foot-note{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.page2-foot-note .name{
+    font-size: 14px;
+    color: gray;
+    font-weight: 700;
+}
+.page2-foot-note .addr{
+    font-size: 11px;
+    color: gray;
+    /* font-weight: 700; */
+    margin-bottom: 30px;
+}
